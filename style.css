@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bigbox {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 508px;
+    width: 508px;
+    border-radius: 20px;
+}
+
+.btn {
+    transition-duration: 0.4s;
+    height: 230px;
+    width: 230px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+h1 {
+    transition-duration: 0.4s;
+    color: whitesmoke;
+    margin: 0.5rem;
+}
+
+h1:hover {
+    transform: scale(1.1);
+
+    font-size: 2rem;
+}
+
+h3 {
+    color: whitesmoke;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: black;
+}
+
+.leaderboard {
+    height: auto;
+    width: 400px;
+    margin: 5px;
+    background-color: cadetblue;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 2rem;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.user {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#restart {
+    display: none;
+}
+
+.gamebtn {
+    background-color: cadetblue;
+    color: aliceblue;
+    border: 1px solid white;
+    margin-top: 10px;
+    height: 2.5rem;
+    width: 4.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+#start {
+    transition-duration: 0.4s;
+}
+
+#start:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: cadetblue;
+    border: solid 2px cadetblue;
+    border-radius: 1rem;
+}
+
+#restart {
+    transition-duration: 0.4s;
+}
+
+#restart:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: cadetblue;
+    border: solid 2px cadetblue;
+    border-radius: 1rem;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    margin: 1rem;
+}
+
+.inputinfo {
+    transition-duration: 0.4s;
+    display: flex;
+    height: auto;
+    width: auto;
+    background-color: cadetblue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+.inputinfo:hover {
+    transform: scale(1.1);
+}
+
+video {
+    margin: 5px;
+    height: 300px;
+    width: auto;
+    border-radius: 1rem;
+}
+
+input {
+    display: none;
+    transition-duration: 0.4s;
+    background-color: white;
+    border: 1px solid cadetblue;
+    border-radius: 1rem;
+    color: white;
+    height: auto;
+    padding: 10px;
+    font-weight: 600;
+    color: black;
+}
+
+input:hover {
+    transform: scale(1.1);
+}
+
+.inputinfo button {
+    display: none;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 5px solid cadetblue;
+    margin-top: 10px;
+    height: 2.5rem;
+    width: auto;
+    border-radius: 1rem;
+    padding: 5px;
+}
+
+.inputinfo button:hover {
+    transform: scale(1.1);
+    background-color: cadetblue;
+    color: white;
+    border: solid 2px white;
+    border-radius: 1rem;
+}
+
+.user {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.leaderboardNav {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.gameovervideo {
+    height: 508px;
+    width: 508px;
+    border-radius: 20px;
+}
+
+.nonevideo {
+    display: none;
+}
+
+.error {
+    font-weight: 600;
+    color: black;
+}
